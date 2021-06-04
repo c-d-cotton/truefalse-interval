@@ -17,7 +17,7 @@ def test():
     def dofunc(date):
         print(date)
 
-    from truefalse-interval_func import truefalsedo
+    from truefalse_interval_func import truefalsedo
     truefalsedo(truefalseval, dofunc, [10, 20, 30, 40, 50, 60], __projectdir__ / Path('temp/tempfolder/'))
 
 # Run:{{{1
